@@ -1,5 +1,7 @@
-n = int(input("Введите n: "))
-m = int(input("Введите m: "))
+import sys
+
+n = int(sys.argv[1])
+m = int(sys.argv[2])
 
 array = m * [i for i in range(1, n + 1)]
 result = ''
